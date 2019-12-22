@@ -3,16 +3,16 @@
 Shader "psx/vertexlit" {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
-        _SnapStrength("Snap Strength", Float) = 1
-        _Transparency("Transparency", Range(0,1)) = 1
+		_SnapStrength("Snap Strength", Float) = 1
+		_Transparency("Transparency", Range(0,1)) = 1
 	}
 		SubShader{
-			Tags { "Queue"="Transparent" "RenderType"="Transparent" }
+			Tags { "Queue" = "Transparent" "RenderType" = "Transparent" }
 			AlphaToMask On
 			LOD 100
 
-            ZWrite On
-            Blend SrcAlpha OneMinusSrcAlpha
+			ZWrite On
+			Blend SrcAlpha OneMinusSrcAlpha
 
 			Pass {
 			Lighting On
@@ -32,8 +32,8 @@ Shader "psx/vertexlit" {
 					};
 
 					float4 _MainTex_ST;
-                    float _SnapStrength;
-                    float _Transparency;
+					float _SnapStrength;
+					float _Transparency;
 					uniform half4 unity_FogStart;
 					uniform half4 unity_FogEnd;
 
@@ -45,7 +45,7 @@ Shader "psx/vertexlit" {
 						float4 snapToPixel = UnityObjectToClipPos(v.vertex);
 						float4 vertex = snapToPixel;
 						vertex.xyz = snapToPixel.xyz / snapToPixel.w;
-                        float snap = 1 / _SnapStrength;
+						float snap = 1 / _SnapStrength;
 						vertex.x = floor(160 * snap * vertex.x) / (160 * snap);
 						vertex.y = floor(120 * snap * vertex.y) / (120 * snap);
 						vertex.xyz *= snapToPixel.w;
@@ -88,14 +88,14 @@ Shader "psx/vertexlit" {
 					float4 frag(v2f IN) : COLOR
 					{
 						half4 c = tex2D(_MainTex, IN.uv_MainTex / IN.normal.r)*IN.color;
-						half4 color = c*(IN.colorFog.a);
+						half4 color = c * (IN.colorFog.a);
 						color.rgb += IN.colorFog.rgb*(1 - IN.colorFog.a);
-                        color.a = color.a > 0.5 ? 1 : 0;
+						color.a = c.a;
 						return color;
 					}
 				ENDCG
 			}
-        UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
-	}
-    Fallback "VertexLit"
+		UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
+		}
+			Fallback "VertexLit"
 }
