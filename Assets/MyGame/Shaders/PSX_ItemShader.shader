@@ -85,6 +85,8 @@ Shader "psx/vertexlit" {
 
 					sampler2D _MainTex;
 
+
+
 					float4 frag(v2f IN) : COLOR
 					{
 						half4 c = tex2D(_MainTex, IN.uv_MainTex / IN.normal.r)*IN.color;

@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 11bb8bb6cff09ab46bea61d0dcdc7e92
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LanternOff
+    second: {fileID: 2100000, guid: 9c276c1d00914ed4f8a0c25b20776d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LanternWallOff
+    second: {fileID: 2100000, guid: b9e1dec155ba12e4286a92816712db91, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,6 +48,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -60,7 +71,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
