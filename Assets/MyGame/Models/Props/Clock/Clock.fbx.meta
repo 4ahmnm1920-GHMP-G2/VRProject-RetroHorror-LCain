@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: 1625273264117656441
     second: clockPendel|clockPendelAction
+  - first:
+      74: -8570858927452417639
+    second: clockPendel|clockPendel|clockPendel|clockPendelAction|clockPendel|clockPend
   externalObjects:
   - first:
       type: UnityEngine:Material

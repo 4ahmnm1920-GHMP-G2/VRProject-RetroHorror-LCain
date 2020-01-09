@@ -28,14 +28,16 @@ public class LanternSwitch : MonoBehaviour
     {
         if (toggle == false)
         {
-            lanternLight.enabled = !lanternLight.enabled;
+            lanternLight.enabled = true;
             gameObject.GetComponent<Renderer>().material = onBodyMat;
+            gameObject.tag = "LanternOn";
             toggle = true;
         }
         else
         {
-            lanternLight.enabled = !lanternLight.enabled;
+            lanternLight.enabled = false;
             gameObject.GetComponent<Renderer>().material = offBodyMat;
+            gameObject.tag = "LanternOff";
             toggle = false;
         }
     }
