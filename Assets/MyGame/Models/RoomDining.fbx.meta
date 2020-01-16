@@ -1,11 +1,81 @@
 fileFormatVersion: 2
 guid: 68cf77e5cc1eab5408df4fa417bdc360
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CorpsePig
+    second: {fileID: 2100000, guid: ef24c1ee0a206324a9ecbd6c6d79d145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CorpseRandom
+    second: {fileID: 2100000, guid: 702c11264a0b2b94ba641cff298c585e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CorpseWolf
+    second: {fileID: 2100000, guid: b975163b8efda8b42bd7b25e01e27049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiningDrink
+    second: {fileID: 2100000, guid: 277919c67157d2040a4b3466d5696de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiningPlates
+    second: {fileID: 2100000, guid: ca0b67a003bb7bc4aa681200327c6206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Food01
+    second: {fileID: 2100000, guid: fbee484a1c7482e42a90efc62001e033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Food02
+    second: {fileID: 2100000, guid: a1742d880bdcec64ca5aecd890384da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Food03
+    second: {fileID: 2100000, guid: a017a9c32c335f84f92771c711f5c5d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Food04
+    second: {fileID: 2100000, guid: 5187bcc19de68374383ee61e474fa336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FoodSolid
+    second: {fileID: 2100000, guid: d968006d28628754bab6ddfacce4cb5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FoodSolid02
+    second: {fileID: 2100000, guid: 87bc50314b00a634a8c73cd7157c4f14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Railing.001
+    second: {fileID: 2100000, guid: fce012268dea7074baf7af11af2a9925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoomDining
+    second: {fileID: 2100000, guid: e2a2021bf0bec7546a1a9412f98cbe0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table.003
+    second: {fileID: 2100000, guid: 373d7c03366f4b8408f9f10cd808679c, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -31,13 +101,14 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -68,7 +139,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -86,8 +156,10 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
