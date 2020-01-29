@@ -39,8 +39,11 @@ namespace Valve.VR
         
         private static SteamVR_Action_Boolean p_default_SnapTurnRight;
         
+<<<<<<< HEAD
         private static SteamVR_Action_Vector2 p_default_joyPos;
         
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
         private static SteamVR_Action_Vibration p_default_Haptic;
         
         private static SteamVR_Action_Vector2 p_platformer_Move;
@@ -145,6 +148,7 @@ namespace Valve.VR
             }
         }
         
+<<<<<<< HEAD
         public static SteamVR_Action_Vector2 default_joyPos
         {
             get
@@ -153,6 +157,8 @@ namespace Valve.VR
             }
         }
         
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
         public static SteamVR_Action_Vibration default_Haptic
         {
             get
@@ -231,7 +237,10 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
+<<<<<<< HEAD
                     SteamVR_Actions.default_joyPos,
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
                     SteamVR_Actions.default_Haptic,
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
@@ -252,7 +261,10 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
+<<<<<<< HEAD
                     SteamVR_Actions.default_joyPos,
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
                     SteamVR_Actions.buggy_Steering,
@@ -282,7 +294,10 @@ namespace Valve.VR
                     SteamVR_Actions.default_Squeeze,
                     SteamVR_Actions.buggy_Throttle};
             Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[] {
+<<<<<<< HEAD
                     SteamVR_Actions.default_joyPos,
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.buggy_Steering};
             Valve.VR.SteamVR_Input.actionsVector3 = new Valve.VR.SteamVR_Action_Vector3[0];
@@ -298,7 +313,10 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
+<<<<<<< HEAD
                     SteamVR_Actions.default_joyPos,
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
                     SteamVR_Actions.buggy_Steering,
@@ -320,7 +338,10 @@ namespace Valve.VR
             SteamVR_Actions.p_default_HeadsetOnHead = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/HeadsetOnHead")));
             SteamVR_Actions.p_default_SnapTurnLeft = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/SnapTurnLeft")));
             SteamVR_Actions.p_default_SnapTurnRight = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/SnapTurnRight")));
+<<<<<<< HEAD
             SteamVR_Actions.p_default_joyPos = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/default/in/joyPos")));
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
             SteamVR_Actions.p_default_Haptic = ((SteamVR_Action_Vibration)(SteamVR_Action.Create<SteamVR_Action_Vibration>("/actions/default/out/Haptic")));
             SteamVR_Actions.p_platformer_Move = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/platformer/in/Move")));
             SteamVR_Actions.p_platformer_Jump = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/platformer/in/Jump")));
