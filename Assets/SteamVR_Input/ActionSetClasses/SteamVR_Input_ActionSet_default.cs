@@ -105,6 +105,10 @@ namespace Valve.VR
             }
         }
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 635b2f78a861d573827c11a400fda107e931a81e
         public virtual SteamVR_Action_Vector2 joyPos
         {
             get
@@ -113,6 +117,11 @@ namespace Valve.VR
             }
         }
         
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ae90f934d9a6f607cc56adae19a3b98256b9a14c
+>>>>>>> 635b2f78a861d573827c11a400fda107e931a81e
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
