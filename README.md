@@ -70,6 +70,14 @@ Some textures are modified images used under Fair Use
 
 45 – 55% complete!
 
+## To do:
+
+High priority: inventory system, fully integrate all items and puzzles, functional doors
+
+Mid priority: Dialogue system
+
+Low priority: Enemy fight, ending
+
 ## Limitations: 
 
 Needs VR device to be played. May make a non-VR port in future.
