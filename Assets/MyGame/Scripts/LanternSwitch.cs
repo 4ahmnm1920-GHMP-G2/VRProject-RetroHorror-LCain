@@ -5,6 +5,7 @@ using UnityEngine;
 public class LanternSwitch : MonoBehaviour
 {
     private Light lanternLight;
+    public Renderer LanternRend;
     public Material offBodyMat;
     public Material onBodyMat;
     bool toggle;
@@ -12,7 +13,7 @@ public class LanternSwitch : MonoBehaviour
     void Start()
     {
         lanternLight = GetComponent<Light>();
-        
+        LanternRend = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
@@ -29,14 +30,14 @@ public class LanternSwitch : MonoBehaviour
         if (toggle == false)
         {
             lanternLight.enabled = true;
-            gameObject.GetComponent<Renderer>().material = onBodyMat;
+            LanternRend.material = onBodyMat;
             gameObject.tag = "LanternOn";
             toggle = true;
         }
         else
         {
             lanternLight.enabled = false;
-            gameObject.GetComponent<Renderer>().material = offBodyMat;
+            LanternRend.material = offBodyMat;
             gameObject.tag = "LanternOff";
             toggle = false;
         }
