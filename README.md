@@ -1,4 +1,4 @@
-# VRProject-RetroHorror-LCain
+# VRProject-RetroHorror-MCain
 
 ## Project description: 
 
@@ -7,12 +7,12 @@ The game is a short sequence of several rooms, laid out in a non-euclidean patte
 
 ### Controls:
 
-It’s controlled like a classic first-person game, with the Player in the shoes of the hero, who can move freely around the map. Movement is based on the left controller’s motion stick. The right controller’s stick switches between collected items and, in dialogue, selects a response. The right trigger activates the item where applicable (lighting the lantern, etc). Otherwise, the triggers are used to pick up physics objects. 
+Itâ€™s controlled like a classic first-person game, with the Player in the shoes of the hero, who can move freely around the map. Movement is based on the left controllerâ€™s motion stick. The right controllerâ€™s stick switches between collected items and, in dialogue, selects a response. The right trigger activates the item where applicable (lighting the lantern, etc). Otherwise, the triggers are used to pick up physics objects. 
 
 
 ### Map:
 
-The map is made up of several rooms which connect via doors. The doors aren’t linked in physical space, instead acting like portals – they can be told apart by their designs, which match the room they link to (the door with a square emblem and the same design as the square room’s wallpaper leads to the square room, for example). Every room has a vaguely Victorian design, with ambient colourful light and Low view distance. Darkness is so thick that in some rooms, you can’t see the opposite wall from one side.
+The map is made up of several rooms which connect via doors. The doors arenâ€™t linked in physical space, instead acting like portals â€“ they can be told apart by their designs, which match the room they link to (the door with a square emblem and the same design as the square roomâ€™s wallpaper leads to the square room, for example). Every room has a vaguely Victorian design, with ambient colourful light and Low view distance. Darkness is so thick that in some rooms, you canâ€™t see the opposite wall from one side.
 
 
 ### Sound:
@@ -22,11 +22,11 @@ The sound design, much like the graphics, are influenced by PSX era games such a
 
 ### Rest API:
 
-The Rest API integration will be used sparingly to increase its effect. Paintings will sometimes change to pictures of the player’s city or depict a map of their location. If it is raining, they may hear the sound of wind and water droplets hitting a window in one of the rooms. 
+The Rest API integration will be used sparingly to increase its effect. Paintings will sometimes change to pictures of the playerâ€™s city or depict a map of their location. If it is raining, they may hear the sound of wind and water droplets hitting a window in one of the rooms. 
 
 Characters: 
 
-There are five characters: Eth, the player, a knight and royal guard. Thorne, her stoic comrade. Spots, a deranged cervine they picked up along the way – and Reno, a princess and the guards’ charge. Finally, the Warden is a supernatural foe who chases Eth during one sequence. Eth and Thorne are on a quest to rescue Eth, and somehow ended up in the game’s setting.
+There are five characters: Eth, the player, a knight and royal guard. Thorne, her stoic comrade. Spots, a deranged cervine they picked up along the way â€“ and Reno, a princess and the guardsâ€™ charge. Finally, the Warden is a supernatural foe who chases Eth during one sequence. Eth and Thorne are on a quest to rescue Eth, and somehow ended up in the gameâ€™s setting.
 
 In game, Thorne will be used for exposition should the player require it. Spots will be used for providing cryptic hints as well as red herrings. The Warden will periodically appear to be watching Eth, and finally confront her before the ending. Reno will only appear once, at the end, serving as a final confrontation and puzzle that can resolve in one of two endings.
 
@@ -68,7 +68,7 @@ Some textures are modified images used under Fair Use
 
 ## Project state: 
 
-45 – 55% complete!
+45 â€“ 55% complete!
 
 ## To do:
 
